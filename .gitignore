@@ -1,0 +1,61 @@
+# Dataset archive and extracted dataset
+NZ-subset.zip
+NZ-subset/
+
+# Other dataset directories
+data/
+dataset/
+datasets/
+
+# Climate and scientific data files
+*.nc
+*.nc4
+*.grib
+*.grib2
+*.zarr
+*.tif
+*.tiff
+
+# Trained models and checkpoints
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.onnx
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Generated outputs
+outputs/
+results/
+checkpoints/
+
+# CodeCarbon output
+emissions.csv
+code_carbon/emissions.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# VS Code and other editors
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
